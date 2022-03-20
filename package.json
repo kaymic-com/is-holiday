@@ -1,0 +1,22 @@
+{
+  "name": "holiday",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:docs": "tsc && vite build --config vite-docs.config.ts",
+    "build:all": "yarn build && yarn build:docs",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@types/luxon": "^2.0.9",
+    "@vitejs/plugin-vue": "^1.9.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.4",
+    "vue-tsc": "^0.3.0"
+  },
+  "dependencies": {
+    "luxon": "^2.3.0",
+    "vue": "^3.2.13"
+  }
+}
